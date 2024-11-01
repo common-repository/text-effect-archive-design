@@ -1,0 +1,24 @@
+/**
+ * Template 1
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Rancho);
+#shadow_text {
+  font-family: 'Rancho', sans-serif;
+}
+#shadow_text h1{
+  text-align: center;
+  font-size: 10em;
+}
+.shadow {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: 2em;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}

@@ -1,0 +1,38 @@
+h1.post, h2.post, h3.post, h4.post, h5.post, h6.post {
+  color: #333;
+  line-height: 1.177;
+  margin: 0;
+}
+
+h1.post {
+  font-size: 2.618rem;
+}
+
+.post {
+  margin: 0 auto;
+  max-width: 33em;
+}
+
+.post-header {
+  border: 2px solid #333;
+  border-left: 0;
+  margin-bottom: 3.236rem;
+  padding: 1.618rem 1.618rem 3.236rem 0;
+  position: relative;
+  margin-top:30px;
+}
+.post-header time {
+  background-color: white;
+  bottom: 100%;
+  color: #333;
+  left: 0;
+  margin-bottom: -0.25em;
+  padding: 0 0.5em 0 0;
+  position: absolute;
+}
+
+.intro {
+  font-size: 0.8em;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
